@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Not_Kayit_Sistemi", "Not_Ka
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Veri_Tabanli_Parti_Secim_Grafik_Istatistik", "Veri_Tabanli_Parti_Secim_Grafik_Istatistik\Veri_Tabanli_Parti_Secim_Grafik_Istatistik.csproj", "{1CCBC8B6-A29B-4A86-A6FA-3852622FF6DA}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Passaparola", "Passaparola\Passaparola.csproj", "{BC49A934-4F7C-4512-BA5F-4A476FDD9C39}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{1CCBC8B6-A29B-4A86-A6FA-3852622FF6DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1CCBC8B6-A29B-4A86-A6FA-3852622FF6DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1CCBC8B6-A29B-4A86-A6FA-3852622FF6DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC49A934-4F7C-4512-BA5F-4A476FDD9C39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC49A934-4F7C-4512-BA5F-4A476FDD9C39}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC49A934-4F7C-4512-BA5F-4A476FDD9C39}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC49A934-4F7C-4512-BA5F-4A476FDD9C39}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
