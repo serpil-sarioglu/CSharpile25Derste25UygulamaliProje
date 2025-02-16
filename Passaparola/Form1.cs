@@ -81,8 +81,7 @@ namespace Passaparola
                 }
 
                 if (dogruCevap)                
-                    lblDogru.Text = (++dogru).ToString();
-                
+                    lblDogru.Text = (++dogru).ToString();                
                 else                 
                     lblYanlis.Text = (++yanlis).ToString();                
 
@@ -93,7 +92,12 @@ namespace Passaparola
 
         private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            timer1.Start(); // 3 dakika süreli timer başladı
+            // timer1.Enabled = false olduğunda koşul true döner if bloğuna girer ve timer başlatılır 
+            if (!timer1.Enabled) 
+            {
+                timer1.Start();
+            }
+            
             linkLabel1.Text = "SONRAKİ";
             soruNo++;
             this.Text = soruNo.ToString();
