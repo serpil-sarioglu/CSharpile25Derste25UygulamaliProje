@@ -37,20 +37,20 @@
             this.lblEuroSatis = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.txtKur = new System.Windows.Forms.TextBox();
-            this.label9 = new System.Windows.Forms.Label();
-            this.label10 = new System.Windows.Forms.Label();
-            this.txtMiktar = new System.Windows.Forms.TextBox();
-            this.label11 = new System.Windows.Forms.Label();
-            this.txtTutar = new System.Windows.Forms.TextBox();
+            this.btnSatisYap2 = new System.Windows.Forms.Button();
+            this.btnSatisYap = new System.Windows.Forms.Button();
             this.label12 = new System.Windows.Forms.Label();
             this.txtKalan = new System.Windows.Forms.TextBox();
-            this.btnSatisYap = new System.Windows.Forms.Button();
+            this.label11 = new System.Windows.Forms.Label();
+            this.txtTutar = new System.Windows.Forms.TextBox();
+            this.label10 = new System.Windows.Forms.Label();
+            this.txtMiktar = new System.Windows.Forms.TextBox();
+            this.label9 = new System.Windows.Forms.Label();
+            this.txtKur = new System.Windows.Forms.TextBox();
             this.btnDolarAl = new System.Windows.Forms.Button();
             this.btnDolarSatis = new System.Windows.Forms.Button();
             this.btnEuroAlis = new System.Windows.Forms.Button();
             this.btnEuroSatis = new System.Windows.Forms.Button();
-            this.btnSatisYap2 = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -153,22 +153,59 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "İşlem";
             // 
-            // txtKur
+            // btnSatisYap2
             // 
-            this.txtKur.Location = new System.Drawing.Point(107, 38);
-            this.txtKur.Name = "txtKur";
-            this.txtKur.Size = new System.Drawing.Size(215, 30);
-            this.txtKur.TabIndex = 0;
-            this.txtKur.TextChanged += new System.EventHandler(this.txtKur_TextChanged);
+            this.btnSatisYap2.Location = new System.Drawing.Point(159, 209);
+            this.btnSatisYap2.Name = "btnSatisYap2";
+            this.btnSatisYap2.Size = new System.Drawing.Size(123, 40);
+            this.btnSatisYap2.TabIndex = 14;
+            this.btnSatisYap2.Text = "İşlem2";
+            this.btnSatisYap2.UseVisualStyleBackColor = true;
+            this.btnSatisYap2.Click += new System.EventHandler(this.btnSatisYap2_Click);
             // 
-            // label9
+            // btnSatisYap
             // 
-            this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(47, 41);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(49, 25);
-            this.label9.TabIndex = 7;
-            this.label9.Text = "Kur:";
+            this.btnSatisYap.Location = new System.Drawing.Point(30, 209);
+            this.btnSatisYap.Name = "btnSatisYap";
+            this.btnSatisYap.Size = new System.Drawing.Size(123, 40);
+            this.btnSatisYap.TabIndex = 9;
+            this.btnSatisYap.Text = "İşlem1";
+            this.btnSatisYap.UseVisualStyleBackColor = true;
+            this.btnSatisYap.Click += new System.EventHandler(this.btnSatisYap_Click);
+            // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.Location = new System.Drawing.Point(32, 178);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(69, 25);
+            this.label12.TabIndex = 13;
+            this.label12.Text = "Kalan:";
+            // 
+            // txtKalan
+            // 
+            this.txtKalan.Location = new System.Drawing.Point(107, 173);
+            this.txtKalan.Name = "txtKalan";
+            this.txtKalan.Size = new System.Drawing.Size(215, 30);
+            this.txtKalan.TabIndex = 12;
+            this.txtKalan.TextChanged += new System.EventHandler(this.txtKalan_TextChanged);
+            // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.Location = new System.Drawing.Point(32, 131);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(64, 25);
+            this.label11.TabIndex = 11;
+            this.label11.Text = "Tutar:";
+            // 
+            // txtTutar
+            // 
+            this.txtTutar.Location = new System.Drawing.Point(107, 128);
+            this.txtTutar.Name = "txtTutar";
+            this.txtTutar.Size = new System.Drawing.Size(215, 30);
+            this.txtTutar.TabIndex = 10;
+            this.txtTutar.TextChanged += new System.EventHandler(this.txtTutar_TextChanged);
             // 
             // label10
             // 
@@ -186,47 +223,21 @@
             this.txtMiktar.Size = new System.Drawing.Size(215, 30);
             this.txtMiktar.TabIndex = 8;
             // 
-            // label11
+            // label9
             // 
-            this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(32, 131);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(64, 25);
-            this.label11.TabIndex = 11;
-            this.label11.Text = "Tutar:";
+            this.label9.AutoSize = true;
+            this.label9.Location = new System.Drawing.Point(47, 41);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(49, 25);
+            this.label9.TabIndex = 7;
+            this.label9.Text = "Kur:";
             // 
-            // txtTutar
+            // txtKur
             // 
-            this.txtTutar.Location = new System.Drawing.Point(107, 128);
-            this.txtTutar.Name = "txtTutar";
-            this.txtTutar.Size = new System.Drawing.Size(215, 30);
-            this.txtTutar.TabIndex = 10;
-            // 
-            // label12
-            // 
-            this.label12.AutoSize = true;
-            this.label12.Location = new System.Drawing.Point(32, 178);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(69, 25);
-            this.label12.TabIndex = 13;
-            this.label12.Text = "Kalan:";
-            // 
-            // txtKalan
-            // 
-            this.txtKalan.Location = new System.Drawing.Point(107, 173);
-            this.txtKalan.Name = "txtKalan";
-            this.txtKalan.Size = new System.Drawing.Size(215, 30);
-            this.txtKalan.TabIndex = 12;
-            // 
-            // btnSatisYap
-            // 
-            this.btnSatisYap.Location = new System.Drawing.Point(30, 209);
-            this.btnSatisYap.Name = "btnSatisYap";
-            this.btnSatisYap.Size = new System.Drawing.Size(123, 40);
-            this.btnSatisYap.TabIndex = 9;
-            this.btnSatisYap.Text = "İşlem1";
-            this.btnSatisYap.UseVisualStyleBackColor = true;
-            this.btnSatisYap.Click += new System.EventHandler(this.btnSatisYap_Click);
+            this.txtKur.Location = new System.Drawing.Point(107, 38);
+            this.txtKur.Name = "txtKur";
+            this.txtKur.Size = new System.Drawing.Size(215, 30);
+            this.txtKur.TabIndex = 0;
             // 
             // btnDolarAl
             // 
@@ -267,16 +278,6 @@
             this.btnEuroSatis.Text = "...";
             this.btnEuroSatis.UseVisualStyleBackColor = true;
             this.btnEuroSatis.Click += new System.EventHandler(this.btnEuroSatis_Click);
-            // 
-            // btnSatisYap2
-            // 
-            this.btnSatisYap2.Location = new System.Drawing.Point(159, 209);
-            this.btnSatisYap2.Name = "btnSatisYap2";
-            this.btnSatisYap2.Size = new System.Drawing.Size(123, 40);
-            this.btnSatisYap2.TabIndex = 14;
-            this.btnSatisYap2.Text = "İşlem2";
-            this.btnSatisYap2.UseVisualStyleBackColor = true;
-            this.btnSatisYap2.Click += new System.EventHandler(this.btnSatisYap2_Click);
             // 
             // Form1
             // 
