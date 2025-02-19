@@ -47,7 +47,7 @@
             this.txtMiktar = new System.Windows.Forms.TextBox();
             this.label9 = new System.Windows.Forms.Label();
             this.txtKur = new System.Windows.Forms.TextBox();
-            this.btnDolarAl = new System.Windows.Forms.Button();
+            this.btnDolarAlis = new System.Windows.Forms.Button();
             this.btnDolarSatis = new System.Windows.Forms.Button();
             this.btnEuroAlis = new System.Windows.Forms.Button();
             this.btnEuroSatis = new System.Windows.Forms.Button();
@@ -57,8 +57,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(23, 22);
-            this.label1.Margin = new System.Windows.Forms.Padding(0);
+            this.label1.Location = new System.Drawing.Point(46, 58);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(101, 25);
             this.label1.TabIndex = 0;
@@ -67,8 +66,7 @@
             // lblDolarAlis
             // 
             this.lblDolarAlis.AutoSize = true;
-            this.lblDolarAlis.Location = new System.Drawing.Point(124, 22);
-            this.lblDolarAlis.Margin = new System.Windows.Forms.Padding(0);
+            this.lblDolarAlis.Location = new System.Drawing.Point(181, 56);
             this.lblDolarAlis.Name = "lblDolarAlis";
             this.lblDolarAlis.Size = new System.Drawing.Size(23, 25);
             this.lblDolarAlis.TabIndex = 1;
@@ -77,8 +75,7 @@
             // lblDolarSatis
             // 
             this.lblDolarSatis.AutoSize = true;
-            this.lblDolarSatis.Location = new System.Drawing.Point(124, 70);
-            this.lblDolarSatis.Margin = new System.Windows.Forms.Padding(0);
+            this.lblDolarSatis.Location = new System.Drawing.Point(181, 104);
             this.lblDolarSatis.Name = "lblDolarSatis";
             this.lblDolarSatis.Size = new System.Drawing.Size(23, 25);
             this.lblDolarSatis.TabIndex = 3;
@@ -87,8 +84,7 @@
             // label4
             // 
             this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(11, 70);
-            this.label4.Margin = new System.Windows.Forms.Padding(0);
+            this.label4.Location = new System.Drawing.Point(34, 106);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(113, 25);
             this.label4.TabIndex = 2;
@@ -97,8 +93,7 @@
             // lblEuroAlis
             // 
             this.lblEuroAlis.AutoSize = true;
-            this.lblEuroAlis.Location = new System.Drawing.Point(124, 118);
-            this.lblEuroAlis.Margin = new System.Windows.Forms.Padding(0);
+            this.lblEuroAlis.Location = new System.Drawing.Point(181, 152);
             this.lblEuroAlis.Name = "lblEuroAlis";
             this.lblEuroAlis.Size = new System.Drawing.Size(23, 25);
             this.lblEuroAlis.TabIndex = 5;
@@ -107,8 +102,7 @@
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(28, 118);
-            this.label6.Margin = new System.Windows.Forms.Padding(0);
+            this.label6.Location = new System.Drawing.Point(51, 154);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(96, 25);
             this.label6.TabIndex = 4;
@@ -117,8 +111,7 @@
             // lblEuroSatis
             // 
             this.lblEuroSatis.AutoSize = true;
-            this.lblEuroSatis.Location = new System.Drawing.Point(124, 166);
-            this.lblEuroSatis.Margin = new System.Windows.Forms.Padding(0);
+            this.lblEuroSatis.Location = new System.Drawing.Point(181, 200);
             this.lblEuroSatis.Name = "lblEuroSatis";
             this.lblEuroSatis.Size = new System.Drawing.Size(23, 25);
             this.lblEuroSatis.TabIndex = 7;
@@ -127,8 +120,7 @@
             // label8
             // 
             this.label8.AutoSize = true;
-            this.label8.Location = new System.Drawing.Point(16, 166);
-            this.label8.Margin = new System.Windows.Forms.Padding(0);
+            this.label8.Location = new System.Drawing.Point(39, 202);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(108, 25);
             this.label8.TabIndex = 6;
@@ -146,18 +138,17 @@
             this.groupBox1.Controls.Add(this.txtMiktar);
             this.groupBox1.Controls.Add(this.label9);
             this.groupBox1.Controls.Add(this.txtKur);
-            this.groupBox1.Location = new System.Drawing.Point(267, 240);
+            this.groupBox1.Location = new System.Drawing.Point(358, 15);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(359, 280);
+            this.groupBox1.Size = new System.Drawing.Size(393, 280);
             this.groupBox1.TabIndex = 8;
             this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "İşlem";
             // 
             // btnSatisYap2
             // 
-            this.btnSatisYap2.Location = new System.Drawing.Point(159, 209);
+            this.btnSatisYap2.Location = new System.Drawing.Point(215, 234);
             this.btnSatisYap2.Name = "btnSatisYap2";
-            this.btnSatisYap2.Size = new System.Drawing.Size(123, 40);
+            this.btnSatisYap2.Size = new System.Drawing.Size(157, 40);
             this.btnSatisYap2.TabIndex = 14;
             this.btnSatisYap2.Text = "İşlem2";
             this.btnSatisYap2.UseVisualStyleBackColor = true;
@@ -165,9 +156,9 @@
             // 
             // btnSatisYap
             // 
-            this.btnSatisYap.Location = new System.Drawing.Point(30, 209);
+            this.btnSatisYap.Location = new System.Drawing.Point(30, 234);
             this.btnSatisYap.Name = "btnSatisYap";
-            this.btnSatisYap.Size = new System.Drawing.Size(123, 40);
+            this.btnSatisYap.Size = new System.Drawing.Size(157, 40);
             this.btnSatisYap.TabIndex = 9;
             this.btnSatisYap.Text = "İşlem1";
             this.btnSatisYap.UseVisualStyleBackColor = true;
@@ -188,7 +179,6 @@
             this.txtKalan.Name = "txtKalan";
             this.txtKalan.Size = new System.Drawing.Size(215, 30);
             this.txtKalan.TabIndex = 12;
-            this.txtKalan.TextChanged += new System.EventHandler(this.txtKalan_TextChanged);
             // 
             // label11
             // 
@@ -205,7 +195,6 @@
             this.txtTutar.Name = "txtTutar";
             this.txtTutar.Size = new System.Drawing.Size(215, 30);
             this.txtTutar.TabIndex = 10;
-            this.txtTutar.TextChanged += new System.EventHandler(this.txtTutar_TextChanged);
             // 
             // label10
             // 
@@ -238,20 +227,21 @@
             this.txtKur.Name = "txtKur";
             this.txtKur.Size = new System.Drawing.Size(215, 30);
             this.txtKur.TabIndex = 0;
+            this.txtKur.TextChanged += new System.EventHandler(this.txtKur_TextChanged);
             // 
-            // btnDolarAl
+            // btnDolarAlis
             // 
-            this.btnDolarAl.Location = new System.Drawing.Point(204, 15);
-            this.btnDolarAl.Name = "btnDolarAl";
-            this.btnDolarAl.Size = new System.Drawing.Size(45, 35);
-            this.btnDolarAl.TabIndex = 10;
-            this.btnDolarAl.Text = "...";
-            this.btnDolarAl.UseVisualStyleBackColor = true;
-            this.btnDolarAl.Click += new System.EventHandler(this.btnDolarAl_Click);
+            this.btnDolarAlis.Location = new System.Drawing.Point(264, 51);
+            this.btnDolarAlis.Name = "btnDolarAlis";
+            this.btnDolarAlis.Size = new System.Drawing.Size(45, 35);
+            this.btnDolarAlis.TabIndex = 10;
+            this.btnDolarAlis.Text = "...";
+            this.btnDolarAlis.UseVisualStyleBackColor = true;
+            this.btnDolarAlis.Click += new System.EventHandler(this.btnDolarAlis_Click);
             // 
             // btnDolarSatis
             // 
-            this.btnDolarSatis.Location = new System.Drawing.Point(204, 63);
+            this.btnDolarSatis.Location = new System.Drawing.Point(264, 99);
             this.btnDolarSatis.Name = "btnDolarSatis";
             this.btnDolarSatis.Size = new System.Drawing.Size(45, 35);
             this.btnDolarSatis.TabIndex = 11;
@@ -261,7 +251,7 @@
             // 
             // btnEuroAlis
             // 
-            this.btnEuroAlis.Location = new System.Drawing.Point(204, 111);
+            this.btnEuroAlis.Location = new System.Drawing.Point(264, 147);
             this.btnEuroAlis.Name = "btnEuroAlis";
             this.btnEuroAlis.Size = new System.Drawing.Size(45, 35);
             this.btnEuroAlis.TabIndex = 12;
@@ -271,7 +261,7 @@
             // 
             // btnEuroSatis
             // 
-            this.btnEuroSatis.Location = new System.Drawing.Point(204, 159);
+            this.btnEuroSatis.Location = new System.Drawing.Point(264, 195);
             this.btnEuroSatis.Name = "btnEuroSatis";
             this.btnEuroSatis.Size = new System.Drawing.Size(45, 35);
             this.btnEuroSatis.TabIndex = 13;
@@ -283,11 +273,11 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(12F, 25F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(846, 595);
+            this.ClientSize = new System.Drawing.Size(756, 351);
             this.Controls.Add(this.btnEuroSatis);
             this.Controls.Add(this.btnEuroAlis);
             this.Controls.Add(this.btnDolarSatis);
-            this.Controls.Add(this.btnDolarAl);
+            this.Controls.Add(this.btnDolarAlis);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.lblEuroSatis);
             this.Controls.Add(this.label8);
@@ -329,7 +319,7 @@
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.TextBox txtKur;
         private System.Windows.Forms.Button btnSatisYap;
-        private System.Windows.Forms.Button btnDolarAl;
+        private System.Windows.Forms.Button btnDolarAlis;
         private System.Windows.Forms.Button btnDolarSatis;
         private System.Windows.Forms.Button btnEuroAlis;
         private System.Windows.Forms.Button btnEuroSatis;
